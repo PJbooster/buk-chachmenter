@@ -1,0 +1,1 @@
+EVENT_ITEM_TYPES = {}

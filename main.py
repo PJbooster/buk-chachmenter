@@ -25,19 +25,19 @@ from model import (
 
 
 if __name__ == "__main__":
-    s = App()
-    db.create_tables(
-        [
-            EventOdds,
-            League,
-            Match,
-            EventType,
-            Broker,
-            Bet,
-            Event,
-            EventItemType,
-            Odds,
-        ]
-    )
-    s.run()
+    application = App()
+    # db.create_tables(
+    #     [
+    #         EventOdds,
+    #         League,
+    #         Match,
+    #         EventType,
+    #         Broker,
+    #         Bet,
+    #         Event,
+    #         EventItemType,
+    #         Odds,
+    #     ]
+    # )
+    application.run()
     pass
